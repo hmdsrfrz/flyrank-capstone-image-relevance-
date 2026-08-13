@@ -68,7 +68,15 @@ In another terminal:
 ```bash
 npm test                        # 15 tests: schema validation, guard logic, live matching
 npm run eval                    # top-1 precision against the labeled eval set
+npm run demo                    # runs tests, ranking, the mismatch guard, review, cost, and eval in one go
 ```
+
+`npm run demo` (`scripts/demo.js`) is the fastest way to see the whole
+system work: it runs the test suite, ranks images for a fox post, forces a
+wolf photo onto that post and shows the guard reject it, shows a post with
+no matching image get an honest refusal, approves a suggestion, prints the
+cost log, and closes with the eval precision. No server needs to be running
+first, it talks to the database directly.
 
 `docker-compose.yml` maps Postgres to host port **5433**, not the default
 5432. This avoids colliding with any Postgres already installed on the

@@ -3,6 +3,7 @@ run: npm start
 seed: docker compose up -d && npm run migrate && npm run seed && npm run ingest
 test: npm test
 eval: npm run eval
+demo: npm run demo
 base_url: http://localhost:3000
 endpoints:
   - GET /posts/:id/images
