@@ -31,11 +31,29 @@ async function seedPosts() {
     );
   }
   console.log(`Seeded ${posts.length} posts.`);
+  return posts;
+}
+
+async function seedEvalSet(posts) {
+  let count = 0;
+  for (const post of posts) {
+    const { rows } = await pool.query(`SELECT id FROM posts WHERE slug = $1`, [post.slug]);
+    if (!rows[0]) continue;
+    await pool.query(
+      `INSERT INTO eval_set (post_id, expected_category, note)
+       VALUES ($1, $2, $3)
+       ON CONFLICT (post_id) DO UPDATE SET expected_category = EXCLUDED.expected_category`,
+      [rows[0].id, post.seed_category, post.seed_category ? null : "expects no confident match"]
+    );
+    count += 1;
+  }
+  console.log(`Seeded ${count} eval_set entries.`);
 }
 
 async function main() {
   await seedImages();
-  await seedPosts();
+  const posts = await seedPosts();
+  await seedEvalSet(posts);
   await pool.end();
 }
 

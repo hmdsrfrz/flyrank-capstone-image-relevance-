@@ -75,10 +75,15 @@ CREATE TABLE IF NOT EXISTS cost_log (
 );
 CREATE INDEX IF NOT EXISTS idx_cost_log_created ON cost_log(created_at);
 
+-- Ground truth is a category, not a single image: the corpus has multiple
+-- equally-valid images per category (e.g. 10 fox photos), so "the one
+-- correct image" would be an arbitrary pick. A post is correct at top-1 if
+-- the suggested image's category matches expected_category, or if
+-- expected_category is null and no suggestion was made (see src/eval/runEval.js).
 CREATE TABLE IF NOT EXISTS eval_set (
   id SERIAL PRIMARY KEY,
-  post_id INTEGER NOT NULL REFERENCES posts(id) ON DELETE CASCADE,
-  correct_image_id INTEGER REFERENCES images(id) ON DELETE CASCADE,
+  post_id INTEGER NOT NULL UNIQUE REFERENCES posts(id) ON DELETE CASCADE,
+  expected_category TEXT,
   note TEXT,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );

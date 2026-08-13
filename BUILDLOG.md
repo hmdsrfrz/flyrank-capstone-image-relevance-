@@ -54,3 +54,27 @@ was changed. Updated per session.
   useful component": the failure mode wasn't obvious from single-image
   testing, only appeared at batch scale, and the fix was retry-with-variation
   plus fixing our own retry logic — not the model's problem to solve.
+
+## 2026-08-13 — Phase 3: Matching engine + mismatch guard
+
+- The mismatch guard's category cross-check (`inferCategory` in
+  `src/guard/matchGuard.js`) is a simple synonym/word-boundary matcher
+  against our 5 known categories, not a learned classifier. This was a
+  deliberate scope choice given the corpus is small and fixed — a real
+  production system with an open-ended category set would need something
+  smarter, and that's noted as a limitation, not hidden.
+- The similarity threshold was **not guessed**. Wrote a throwaway script
+  (`scripts/inspectSimilarity.js`, since deleted) that computed real cosine
+  similarities between all 13 posts and all 50 images. The first guess
+  (0.4) would have wrongly rejected two genuine matches
+  (`training-a-new-puppy` at 0.367, `dog-breeds-for-active-owners` at
+  0.336). Actual data showed real matches cluster at 0.32-0.66 and the two
+  posts with no matching image in the corpus top out at 0.18 — set
+  `SIMILARITY_THRESHOLD = 0.28` to sit in that gap. This is the number
+  defended at the demo, not a feeling.
+- Verified end to end against the live database (not just unit tests): full
+  sweep across all 13 posts gives 13/13 correct top-1 suggestions (11
+  category posts correctly matched, 2 no-category posts correctly returned
+  `NO_MATCH`), and the brief's exact wolf-on-fox-post demo scenario was
+  reproduced via `evaluateForcedPair()` and rejected with "Category
+  mismatch: expected fox, detected wolf."
