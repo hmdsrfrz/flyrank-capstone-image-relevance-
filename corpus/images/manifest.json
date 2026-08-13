@@ -1,0 +1,352 @@
+[
+  {
+    "filename": "fox-01.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/brown-fox-lying-on-green-grass-8650973/",
+    "photographer": "Brett Jordan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-02.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/fox-on-a-field-13533977/",
+    "photographer": "Brett Jordan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-03.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/fox-lie-on-cold-ground-in-winter-19983817/",
+    "photographer": "Niklas Lang",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-04.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/red-fox-sitting-on-the-steps-26970106/",
+    "photographer": "Radik 2707",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-05.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/foxes-lying-down-at-field-27114106/",
+    "photographer": "Brett Jordan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-06.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/two-jackals-lying-in-grass-27114105/",
+    "photographer": "Brett Jordan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-07.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/close-up-of-a-resting-red-fox-in-straw-36699093/",
+    "photographer": "patrice schoefolt",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-08.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/red-fox-on-ground-near-wire-mesh-fence-7277862/",
+    "photographer": "Ralph",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-09.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/playful-foxes-in-a-snowy-winter-landscape-31046956/",
+    "photographer": "家豪 陳",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "fox-10.jpg",
+    "seed_category": "fox",
+    "source_url": "https://www.pexels.com/photo/a-person-feeding-wild-fox-on-the-road-9681748/",
+    "photographer": "Erik Mclean",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-01.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/photo-of-a-wolfdog-12960017/",
+    "photographer": "patrice schoefolt",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-02.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/wild-wolf-carrying-prey-in-forest-setting-29448267/",
+    "photographer": "Omar Ramadan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-03.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/close-up-of-a-gray-wolf-in-natural-habitat-28541402/",
+    "photographer": "Andreas Schnabl",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-04.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/gray-wolf-in-forest-clearing-during-daytime-31767241/",
+    "photographer": "Daniel Lengies",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-05.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/portrait-of-a-wolf-21655742/",
+    "photographer": "patrice schoefolt",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-06.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/majestic-grey-wolf-in-natural-habitat-33091531/",
+    "photographer": "patrice schoefolt",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-07.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/gray-wolf-walking-in-natural-habitat-36169697/",
+    "photographer": "Jack Borno",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-08.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/close-up-of-a-wolf-12428924/",
+    "photographer": "patrice schoefolt",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-09.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/brown-wolfs-on-brown-sand-12859255/",
+    "photographer": "Natarajan M",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "wolf-10.jpg",
+    "seed_category": "wolf",
+    "source_url": "https://www.pexels.com/photo/a-wolf-on-the-grass-7402790/",
+    "photographer": "patrice schoefolt",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-01.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/",
+    "photographer": "Suvan Chowdhury",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-02.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/dog-playing-on-the-ground-with-tires-9810766/",
+    "photographer": "Plato Terentev",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-03.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/white-puppy-dog-20680840/",
+    "photographer": "Tokuo Nobuhiro",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-04.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/adorable-puppy-resting-outdoors-in-monochrome-30917362/",
+    "photographer": "Sharath G.",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-05.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/close-up-shot-of-puppies-7256826/",
+    "photographer": "Alireza Zohoor Parvaz",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-06.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/close-up-of-puppies-15778742/",
+    "photographer": "Ayşe İpek",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-07.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/adorable-puppy-duo-in-natural-setting-29373007/",
+    "photographer": "Sudhir Sangwan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-08.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/close-up-of-a-puppy-on-the-ground-16299046/",
+    "photographer": "Sudhir Sangwan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-09.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/adorable-puppies-snuggled-together-outdoors-29875284/",
+    "photographer": "Hanifi Sarıkaya",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "dog-10.jpg",
+    "seed_category": "dog",
+    "source_url": "https://www.pexels.com/photo/adorable-puppies-sleeping-together-in-harmony-29373003/",
+    "photographer": "Sudhir Sangwan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-01.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/brown-bear-3048718/",
+    "photographer": "Vincent M.A. Janssen",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-02.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/brown-bears-playing-on-the-lake-7266172/",
+    "photographer": "Alexas Fotos",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-03.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/playful-brown-bears-swimming-in-a-rocky-pool-34885889/",
+    "photographer": "arnaud audoin",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-04.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/brown-bear-lying-on-dry-leaves-10172222/",
+    "photographer": "Ferencz Istvan",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-05.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/majestic-brown-bear-strolling-in-rocky-habitat-37533536/",
+    "photographer": "Brett A",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-06.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/close-up-of-a-grizzly-bear-17646622/",
+    "photographer": "Andras Stefuca",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-07.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/close-up-photo-of-a-grizzly-bear-14431197/",
+    "photographer": "Nicky Pe",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-08.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/a-grizzly-bear-lying-on-a-grass-field-18299211/",
+    "photographer": "Miguel Cuenca",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-09.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/brown-bear-in-swedish-countryside-grassland-31451543/",
+    "photographer": "Catharina Dahlqvist",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "bear-10.jpg",
+    "seed_category": "bear",
+    "source_url": "https://www.pexels.com/photo/brown-bear-on-green-grass-4282463/",
+    "photographer": "patrice schoefolt",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-01.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deers-in-the-forest-during-golden-hour-10812818/",
+    "photographer": "Sirwon Creations",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-02.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/moody-blue-27626067/",
+    "photographer": "Edward Roets",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-03.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deer-on-green-grass-field-4654632/",
+    "photographer": "Gantas Vaičiulėnas",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-04.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/red-deer-in-a-dense-forest-landscape-33287267/",
+    "photographer": "Haberdoedas Photography",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-05.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deer-with-large-antlers-10906728/",
+    "photographer": "Lewis Ashton",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-06.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/wildlife-photography-of-herd-of-gazelle-831244/",
+    "photographer": "Syed Hasan Mehdi",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-07.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deer-standing-on-brown-soil-3736574/",
+    "photographer": "Buddh Sharan Sahu",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-08.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/landscape-nature-sunset-forest-10804569/",
+    "photographer": "Toth Photos",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-09.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/young-red-deer-18291217/",
+    "photographer": "Miguel Cuenca",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  },
+  {
+    "filename": "deer-10.jpg",
+    "seed_category": "deer",
+    "source_url": "https://www.pexels.com/photo/deer-on-a-grassy-field-7438490/",
+    "photographer": "Elias Strale",
+    "license": "Pexels License (free to use, no attribution required) — https://www.pexels.com/license/"
+  }
+]

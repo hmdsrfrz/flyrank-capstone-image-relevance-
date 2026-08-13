@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "behavior-of-red-foxes",
+    "title": "The Behavior of Red Foxes",
+    "body": "Red foxes are highly adaptable animals, known for their reddish-orange coat, bushy tail, and keen night vision. They hunt small rodents, birds, and insects, often caching surplus food for later. Unlike wolves, foxes are largely solitary hunters and prefer forest edges and open fields over deep woodland.",
+    "seed_category": "fox"
+  },
+  {
+    "slug": "vulpes-vulpes-range",
+    "title": "Vulpes Vulpes: Range and Habitat",
+    "body": "Vulpes vulpes, the scientific name for the common fox species found across the Northern Hemisphere, has one of the widest distributions of any carnivore. This species thrives in forests, grasslands, mountains, and even urban areas, adapting its diet and denning habits to each environment.",
+    "seed_category": "fox"
+  },
+  {
+    "slug": "fox-hunting-strategies",
+    "title": "How Wild Fox Species Hunt at Dusk",
+    "body": "As twilight falls, wild fox species become most active, using acute hearing to detect small prey moving beneath snow or leaf litter. Their pounce technique, a near-vertical leap onto prey, is one of the most distinctive hunting behaviors in the canid family.",
+    "seed_category": "fox"
+  },
+  {
+    "slug": "gray-wolf-pack-dynamics",
+    "title": "Gray Wolf Pack Dynamics",
+    "body": "Gray wolves live and hunt in tightly organized packs led by a breeding pair. Cooperative hunting allows packs to take down prey many times larger than a single wolf, such as elk or moose, through coordinated pursuit and encirclement.",
+    "seed_category": "wolf"
+  },
+  {
+    "slug": "wolf-howling-communication",
+    "title": "Why Wolves Howl",
+    "body": "Howling serves as long-distance communication for wolf packs, reinforcing territory boundaries and coordinating movement across large ranges. A single howl can travel for miles across open terrain, warning rival packs to keep their distance.",
+    "seed_category": "wolf"
+  },
+  {
+    "slug": "training-a-new-puppy",
+    "title": "Training a New Puppy: The First 30 Days",
+    "body": "Consistency is the single most important factor when training a new dog. Short, frequent sessions focused on basic commands like sit, stay, and recall build a foundation of trust between owner and puppy far faster than long, infrequent lessons.",
+    "seed_category": "dog"
+  },
+  {
+    "slug": "dog-breeds-for-active-owners",
+    "title": "Best Dog Breeds for Active Owners",
+    "body": "Owners who run, hike, or cycle regularly often do best with high-energy dog breeds bred for endurance work. These dogs need substantial daily exercise and mental stimulation to avoid destructive behavior indoors.",
+    "seed_category": "dog"
+  },
+  {
+    "slug": "brown-bear-hibernation",
+    "title": "How Brown Bears Prepare for Hibernation",
+    "body": "In late autumn, brown bears enter a period of hyperphagia, consuming up to 20,000 calories a day to build fat reserves. This stored fat sustains them through months of hibernation, during which heart rate and metabolism drop dramatically.",
+    "seed_category": "bear"
+  },
+  {
+    "slug": "bear-safety-in-the-backcountry",
+    "title": "Bear Safety in the Backcountry",
+    "body": "Hikers in bear country should store food in sealed containers well away from camp, make noise on the trail to avoid surprising a bear, and know how to react if a bear approaches: stand your ground, speak calmly, and back away slowly.",
+    "seed_category": "bear"
+  },
+  {
+    "slug": "deer-mating-season",
+    "title": "Understanding Deer Mating Season",
+    "body": "During the autumn rut, male deer compete for mates through antler displays and occasional sparring. Testosterone surges drive increased activity and reduced caution, making this the time of year deer are most visible near roads and forest edges.",
+    "seed_category": "deer"
+  },
+  {
+    "slug": "deer-population-management",
+    "title": "Deer Population Management in Suburban Areas",
+    "body": "As natural predators have declined, deer populations in many suburban regions have grown unchecked, leading to overgrazing and increased vehicle collisions. Wildlife managers use a combination of controlled hunts and habitat modification to keep numbers sustainable.",
+    "seed_category": "deer"
+  },
+  {
+    "slug": "postgres-index-tuning",
+    "title": "A Practical Guide to PostgreSQL Index Tuning",
+    "body": "Choosing the right index type, whether B-tree, GIN, or a partial index, can be the difference between a query that scans a million rows and one that returns in milliseconds. This guide walks through EXPLAIN ANALYZE output and how to read it.",
+    "seed_category": null
+  },
+  {
+    "slug": "morning-coffee-brewing-methods",
+    "title": "Five Coffee Brewing Methods Compared",
+    "body": "From pour-over to French press to espresso, each brewing method extracts flavor differently. Grind size, water temperature, and brew time all shape the final cup, and small adjustments can dramatically change the taste.",
+    "seed_category": null
+  }
+]

@@ -1,0 +1,11 @@
+name: flyrank-capstone-image-relevance
+run: npm start
+seed: docker compose up -d && npm run migrate && npm run seed && npm run ingest
+test: npm test
+eval: npm run eval
+base_url: http://localhost:3000
+endpoints:
+  - GET /posts/:id/images
+  - POST /suggestions/:id/review
+  - GET /suggestions/:id
+  - GET /cost
