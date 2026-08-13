@@ -5,10 +5,57 @@ each phase completes — empty boxes below are not yet done.
 
 ## AI processing
 
-- [ ] Vision model produces structured output validated against a schema; invalid responses are never trusted.
-- [ ] Low-confidence classifications are flagged instead of accepted.
-- [ ] Images are processed through a batch background job with retries.
-- [ ] Vision and embedding costs are tracked per call.
+- [x] Vision model produces structured output validated against a schema; invalid responses are never trusted.
+
+  `src/vision/tagSchema.js` validates every model response with Zod
+  (`safeParse`); `src/vision/classifyImage.js` retries on both a failed
+  parse and an empty/invalid vision response, trying alternate prompts
+  (`CAPTION_PROMPTS`) before giving up. See `test/tagSchema.test.js`
+  (malformed output is rejected, not coerced).
+
+- [x] Low-confidence classifications are flagged instead of accepted.
+
+  `LOW_CONFIDENCE_THRESHOLD = 0.6` in `src/vision/tagSchema.js` sets
+  `low_confidence: true` on any tag below that confidence — it is stored,
+  not discarded. Proof from the real run against all 50 corpus images:
+
+  ```
+  $ docker exec capstone-db-1 psql -U capstone -d capstone -c "
+    SELECT (SELECT count(*) FROM images) AS total_images,
+           (SELECT count(*) FROM image_metadata) AS tagged,
+           (SELECT count(*) FROM image_metadata WHERE low_confidence) AS flagged_low_confidence,
+           (SELECT count(*) FROM image_vectors) AS embedded_images,
+           (SELECT count(*) FROM posts) AS total_posts,
+           (SELECT count(*) FROM post_vectors) AS embedded_posts,
+           (SELECT count(*) FROM cost_log) AS cost_log_entries;"
+
+   total_images | tagged | flagged_low_confidence | embedded_images | total_posts | embedded_posts | cost_log_entries
+  --------------+--------+------------------------+------------------+-------------+-----------------+------------------
+             50 |     50 |                      9 |               50 |          13 |              13 |              163
+  ```
+
+  9 of 50 images (e.g. `fox-03.jpg`, misidentified as "urn of snow") were
+  flagged rather than silently accepted.
+
+- [x] Images are processed through a batch background job with retries.
+
+  `src/jobs/runIngestJob.js` (`npm run ingest`), processes only images
+  missing an `image_metadata` row (idempotent — safe to re-run), retries
+  each image up to `JOB_RETRY_ATTEMPTS = 2` times at the job level on top of
+  `classifyImage`'s own internal retries. First run against the full corpus:
+  28 tagged, 8 flagged, 14 failed (all "empty caption" — see BUILDLOG.md for
+  the root cause and fix). Second run (after the fix) reprocessed exactly
+  those 14 unprocessed images and recovered all of them: 13 tagged, 1
+  flagged, 0 failed.
+
+- [x] Vision and embedding costs are tracked per call.
+
+  Every vision, text-extraction, and embedding call writes a `cost_log` row
+  (`call_type`, `model`, `image_id`/`post_id`, `duration_ms`, `cost_usd`).
+  163 rows after ingest = 50 images × 3 calls (caption + extraction +
+  embedding) + 13 posts × 1 embedding call. `cost_usd` is 0 throughout since
+  the local Ollama stack has no per-call charge — the schema supports a
+  nonzero value if the cloud (Gemini) path is used instead.
 
 ## Matching system
 
