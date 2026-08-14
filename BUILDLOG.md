@@ -3,7 +3,7 @@
 Honest record of where AI assistance helped, where it was wrong, and what
 was changed. Updated per session.
 
-## 2026-08-13 — Phase 1: Design
+## Phase 1: Design
 
 - Used Claude Code to read the capstone brief PDF and produce the initial
   Definition-of-Done checklist and phase plan.
@@ -24,7 +24,7 @@ was changed. Updated per session.
   the 3 Zod schema unit tests pass, `moondream` + `all-minilm` pulled via
   Ollama, and 50 images downloaded across 5 categories via the Pexels API.
 
-## 2026-08-13 — Phase 2: Vision pipeline
+## Phase 2: Vision pipeline
 
 - Original plan was a single moondream call producing the full structured
   JSON tag object directly. AI wrote this first version; it failed in
@@ -55,7 +55,7 @@ was changed. Updated per session.
   testing, only appeared at batch scale, and the fix was retry-with-variation
   plus fixing our own retry logic — not the model's problem to solve.
 
-## 2026-08-13 — Phase 3: Matching engine + mismatch guard
+## Phase 3: Matching engine + mismatch guard
 
 - The mismatch guard's category cross-check (`inferCategory` in
   `src/guard/matchGuard.js`) is a simple synonym/word-boundary matcher
